@@ -10,6 +10,9 @@
 .text-primary{
     color: #FD6E0A;
 }
+ .secondary-bg{
+    color: rgba(245, 222, 179, 0.527);
+ }
 .dark-2 {
     color: #474747;
 }
@@ -36,6 +39,15 @@ nav{
     padding: 18px 35px;
     border-radius: 5px;
    
+}
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color:#474747 ;
+}
+.section-description{
+    font-size: 18px;
+    color: #474747;
 }
 nav ul {
     display: flex;
@@ -73,3 +85,51 @@ font-weight: bold;
   .banner-content{
     max-width: 580px;
   }
+  .about{
+    background-color: rgba(230, 228, 225, 0.877);
+    border: none;
+    margin: 2px 400px 10px;
+    text-align: center;
+
+  }
+  .lorem{
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+  }
+  .about-items{
+    display: flex;
+    justify-content: space-around;
+  }
+  .item-title{
+    font-size: 600;
+  }
+  .skills{
+    text-align: center;
+    font-weight: 300;
+     font-size: 20px;s
+  }
+    /* skills-container styles */
+    .skills-container{
+        display: flex;
+        gap: 24px;
+    }
+    .skill{
+        padding: 10px;
+        box-shadow: 0px 6px 50px 0px black;
+    }
+    /* resume section styles */
+    .resume-container{
+        display: flex;
+    }
+    .resume-container{
+        text-align: left;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .footer{
+      padding: 150px 230px;
+    }
+    
